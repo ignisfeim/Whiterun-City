@@ -1,0 +1,152 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    
+}
+body {
+   
+   background-color: #524f4f;
+   
+}
+.card-header {
+    
+    background-color: #524f4f;;
+}
+.header {
+    display: flex;
+}
+
+
+.logo{
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 20%;
+    
+}
+.subtitulo {
+    margin-left: 25%;
+}
+
+.Conteudos {
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #727272;
+    border-width: 5px;
+    color: rgb(181, 181, 181);
+    font-size: 30px;
+    font-family: 'MedievalSharp', cursive;
+    margin: 2px;
+    text-decoration: none;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.main {
+    width: 1280px;
+    align-items: center;
+}
+.main-title {
+    margin-left: 25%;
+}
+.Whiterun {
+    width: 100%;
+}
+.logo-whiterun {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: rgb(34, 33, 33);
+}
+
+
+.card-curiosidades {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagens {
+    width: 375px;
+    background-color: #555151;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    
+}
+
+.card-dist-vent {
+    background-image: url(../img/Praça.jpg);
+    background-repeat: no-repeat;
+    height: 580px;
+    border-radius: 10px;
+    padding: 25px 25px 177px 25px;
+}
+
+.card-dragon {
+    background-image: url(../img/dragonsreach.png);
+    background-repeat: no-repeat;
+    height: 580px;
+    border-radius: 10px;
+    padding: 25px 25px 177px 25px;
+}
+.card-salao {
+    background-image: url(../img/grande\ salão.png);
+    background-repeat: no-repeat;
+    height: 580px;
+    border-radius: 10px;
+    padding: 25px 25px 177px 25px;
+}
+.card-imagem {
+    width: 580px;
+    border-radius: 10px;   
+}
+.textos {
+    margin-top: 200px;
+    
+}
+.direitos {
+    background-color: rgb(119, 116, 116);
+}
+.links {
+    margin-top: 20px;
+}
+@media (min-width: 1280px){
+    .logo {
+        margin-left:70px ;
+        width: 300px;
+        
+    }
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        margin-left: 40%;
+        margin-top: 0%;
+        
+    }
+    .Conteudos {
+        font-size: 50px;
+    }
+    .intro{
+        font-size: 30px;
+        
+    }
+    .main-title {
+        font-size: 50px;
+        margin-left: 38%;
+        
+    }
+    .subtitulo {
+        margin-left: 43%;
+    }
+    .card-curiosidades {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        }
+        
+    }
