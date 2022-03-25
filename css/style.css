@@ -47,6 +47,8 @@ body {
 .main {
     width: 1280px;
     align-items: center;
+    
+    
 }
 .main-title {
     margin-left: 25%;
@@ -115,6 +117,11 @@ body {
 .links {
     margin-top: 20px;
 }
+.fundo-skyrim {
+    width: 425px;
+    border: solid rgb(118, 118, 118);
+    border-radius: 5px;
+}
 @media (min-width: 1280px){
     .logo {
         margin-left:70px ;
@@ -147,6 +154,9 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        }
+        .fundo-skyrim{
+            width: 1280px;
         }
         
     }
